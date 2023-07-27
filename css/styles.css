@@ -10,31 +10,12 @@
 }
 
 body {
-  font-size: 16px;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
   font-family: 'Roboto', sans-serif;
   background-color: var(--white);
   color: var(--slate);
 }
 
-.heared-logo {
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-style: normal;
-  color: var(--navyblue);
-}
-
-.header-logo .accent {
-  color: var(--iris);
-}
-
-.footer-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -44,39 +25,45 @@ body {
   color: var(--iris);
 }
 
-.footer-logo-accent {
+.logo-lignt-accent {
   color: var(--cloud);
+}
+
+.logo-dark-accent {
+  color: var(--navyblue);
 }
 
 .link {
   text-decoration: none;
 }
 
-.nav-menu {
+.list {
   list-style: none;
 }
 
-.nav-menu .nav-item {
+.nav-item {
   font-weight: 500;
+  font-size: 16px;
   letter-spacing: 0.32px;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 
-.nav-menu .address-item {
-  font-style: normal;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  color: var(--navyblue);
-}
-
-.nav-menu .nav-item:hover,
+.nav-item:hover,
 .nav-item:focus {
-  text-decoration: underline;
   color: var(--ocean);
 }
 
-.nav-menu .address-item:hover,
+.address-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--navyblue);
+}
+
+.address-item:hover,
 .address-item:focus {
   color: var(--ocean);
 }
@@ -85,38 +72,35 @@ body {
   visibility: hidden;
 }
 
-.selection-menu {
-  list-style: none;
-}
-
-.selection-menu .item {
+.button {
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
 }
 
-.selection-menu .item:hover,
-.active {
+.button:hover,
+.button:focus {
   background-color: var(--ocean);
   color: var(--white);
   cursor: pointer;
 }
 
-.portfolio-box {
-  list-style: none;
-}
-
 .portfolio-item-heading {
-  font-size: 20px;
   font-weight: 500;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 
 .portfolio-item-type {
-  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
