@@ -5,7 +5,7 @@
   --ocean: #404bbf;
   --navyblue: #2e2f42;
   --cloud: #f4f4fd;
-  --white: #fff;
+  --white: #ffffff;
   --slate: #434455;
 }
 
@@ -15,22 +15,22 @@ body {
   letter-spacing: 0.64px;
   font-family: 'Roboto', sans-serif;
   background-color: var(--white);
-  color: var(--navyblue);
+  color: var(--slate);
 }
 
-.logo {
+.heared-logo {
   font-size: 18px;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-style: normal;
-  font-weight: 800;
   color: var(--navyblue);
 }
 
-.logo-accent {
+.header-logo .accent {
   color: var(--iris);
 }
 
