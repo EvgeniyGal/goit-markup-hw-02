@@ -14,8 +14,6 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   background-color: var(--white);
   color: var(--navyblue);
 }
@@ -58,6 +56,17 @@ body {
   color: var(--navyblue);
 }
 
+.nav-menu .nav-item:hover,
+.nav-item:focus {
+  text-decoration: underline;
+  color: var(--ocean);
+}
+
+.nav-menu .address-item:hover,
+.address-item:focus {
+  color: var(--ocean);
+}
+
 .hiden-element {
   visibility: hidden;
 }
@@ -79,6 +88,7 @@ body {
 .active {
   background-color: var(--ocean);
   color: var(--white);
+  cursor: pointer;
 }
 
 .portfolio-box {
