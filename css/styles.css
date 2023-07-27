@@ -55,12 +55,15 @@ body {
   color: var(--ocean);
 }
 
+.address-style {
+  font-style: normal;
+}
+
 .address-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
-  color: var(--navyblue);
+  color: var(--slate);
 }
 
 .address-item:hover,
@@ -109,6 +112,7 @@ body {
 }
 
 .footer-text {
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--cloud);
 }
