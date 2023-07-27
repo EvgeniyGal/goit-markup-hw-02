@@ -45,7 +45,7 @@ body {
 }
 
 .footer-logo-accent {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .link {
