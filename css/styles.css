@@ -129,18 +129,18 @@ body {
   color: var(--white);
 }
 
-.main-section .button {
-  background-color: var(--iris);
+.blue-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
+  background-color: var(--iris);
 }
 
-.main-section .button:hover,
-.button:focus {
+.blue-button:hover,
+.blue-button:focus {
   background-color: var(--ocean);
   cursor: pointer;
 }
@@ -151,6 +151,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .section-item-heading {
@@ -166,6 +170,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.bgr-white {
+  background-color: var(--white);
 }
 
 .section-fone {
